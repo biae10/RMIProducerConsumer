@@ -5,7 +5,7 @@ import java.util.*
 
 class Buffer : UnicastRemoteObject(), RemoteBuffer {
 
-    val numeros: MutableList<Int> = mutableListOf(5)
+    val numeros: MutableList<Int> = mutableListOf()
     var disponivel: Boolean = true
     var limiteDeProdutos: Int = 0
 
